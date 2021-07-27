@@ -59,7 +59,6 @@ The following diagram represents the various module and their relationship.
 -   [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - managing background threads with simplified code and reducing needs for callbacks.
 -   [Koin](https://github.com/InsertKoinIO/koin) - dependency injector for replacement all FactoryFactory classes.
 -   [Retrofit](https://square.github.io/retrofit/) - type-safe HTTP client.
--   [Coil ](https://github.com/coil-kt/coil) - image loading library for Android backed by Kotlin Coroutines.
 -   [GSON](https://github.com/google/gson) - Gson is a Java library that can be used to convert Java Objects into their JSON representation. It can also be used to convert a JSON string to an equivalent Java object.
 -   [Timber](https://github.com/JakeWharton/timber) - a logger with a small, extensible API which provides utility on top of Android's normal Log class.
 -   [Stetho](http://facebook.github.io/stetho/) - debug bridge for applications via Chrome Developer Tools.
