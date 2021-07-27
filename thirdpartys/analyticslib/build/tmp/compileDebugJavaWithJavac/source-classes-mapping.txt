@@ -1,2 +1,0 @@
-com/dubizzle/analyticslib/BuildConfig.java
- com.dubizzle.analyticslib.BuildConfig

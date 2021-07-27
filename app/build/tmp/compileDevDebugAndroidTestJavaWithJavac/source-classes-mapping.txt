@@ -1,2 +1,0 @@
-com/dubizzle/classifieds/test/BuildConfig.java
- com.dubizzle.classifieds.test.BuildConfig
