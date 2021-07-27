@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dubizzle.classifieds.ProductListingViewModelTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-07-27T18:00:15" hostname="N031" time="3.044">
+  <properties/>
+  <testcase name="test_product_lisiting_success_case" classname="com.dubizzle.classifieds.ProductListingViewModelTest" time="2.522"/>
+  <testcase name="test_product_listing_failure_case" classname="com.dubizzle.classifieds.ProductListingViewModelTest" time="0.522"/>
+  <system-out><![CDATA[[java.io.IOException: unexpected end of stream on http://localhost:63237/..., java.net.SocketException: Connection reset]
+[java.io.IOException: unexpected end of stream on http://localhost:63240/..., java.net.ConnectException: Failed to connect to localhost/127.0.0.1:63240]
+]]></system-out>
+  <system-err><![CDATA[Jul 27, 2021 11:30:15 PM okhttp3.mockwebserver.MockWebServer$start$$inlined$execute$1 run
+INFO: MockWebServer[63237] starting to accept connections
+Jul 27, 2021 11:30:16 PM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[63237] received request: GET /default/dynamodb-writer HTTP/1.1 and responded: HTTP/1.1 200 OK
+Jul 27, 2021 11:30:18 PM okhttp3.mockwebserver.MockWebServer acceptConnections
+INFO: MockWebServer[63237] done accepting connections: Socket closed
+Jul 27, 2021 11:30:18 PM okhttp3.mockwebserver.MockWebServer$serveConnection$$inlined$execute$1 run
+INFO: MockWebServer[63237] connection from /127.0.0.1 failed: java.net.SocketException: Socket closed
+Jul 27, 2021 11:30:18 PM okhttp3.mockwebserver.MockWebServer$start$$inlined$execute$1 run
+INFO: MockWebServer[63240] starting to accept connections
+Jul 27, 2021 11:30:18 PM okhttp3.mockwebserver.MockWebServer$SocketHandler processOneRequest
+INFO: MockWebServer[63240] received request: GET /default/dynamodb-writer HTTP/1.1 and responded: HTTP/1.1 502 Server Error
+Jul 27, 2021 11:30:18 PM okhttp3.mockwebserver.MockWebServer acceptConnections
+INFO: MockWebServer[63240] done accepting connections: Socket closed
+Jul 27, 2021 11:30:18 PM okhttp3.mockwebserver.MockWebServer$serveConnection$$inlined$execute$1 run
+INFO: MockWebServer[63240] connection from /127.0.0.1 failed: java.net.SocketException: Socket closed
+]]></system-err>
+</testsuite>

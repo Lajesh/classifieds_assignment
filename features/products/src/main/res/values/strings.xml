@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_details">Product Details</string>
+    <string name="title_app">Dubizzle - Products</string>
+    <string name="title_created_at">Created At: </string>
+    <string name="title_uid">UID: </string>
+</resources>

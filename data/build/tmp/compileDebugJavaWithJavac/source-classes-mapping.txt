@@ -1,0 +1,14 @@
+com/dubizzle/data/BuildConfig.java
+ com.dubizzle.data.BuildConfig
+com/dubizzle/data/datasource/local/database/AppDb_Impl.java
+ com.dubizzle.data.datasource.local.database.AppDb_Impl
+ com.dubizzle.data.datasource.local.database.AppDb_Impl$1
+com/dubizzle/data/datasource/local/dao/BranchDao_Impl.java
+ com.dubizzle.data.datasource.local.dao.BranchDao_Impl
+ com.dubizzle.data.datasource.local.dao.BranchDao_Impl$1
+ com.dubizzle.data.datasource.local.dao.BranchDao_Impl$2
+ com.dubizzle.data.datasource.local.dao.BranchDao_Impl$3
+ com.dubizzle.data.datasource.local.dao.BranchDao_Impl$4
+ com.dubizzle.data.datasource.local.dao.BranchDao_Impl$5
+ com.dubizzle.data.datasource.local.dao.BranchDao_Impl$6
+ com.dubizzle.data.datasource.local.dao.BranchDao_Impl$7

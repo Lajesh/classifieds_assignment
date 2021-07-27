@@ -1,0 +1,9 @@
+include ':thirdpartys:analyticslib'
+include ':features:products'
+include ':core'
+include ':benchmark'
+include ':data'
+include ':domain'
+include ':app'
+rootProject.name = "ClassifiedsApp"
+include ':thirdpartys:imagen'
